@@ -84,6 +84,7 @@ class MyTwitter:
 
     def seguidores(self):
         perfil = self.__repositorio.buscar()
+
         if perfil is None: 
             raise PIException()
         elif perfil is not None and perfil.is_ativo() == False:
@@ -95,6 +96,7 @@ class MyTwitter:
 
     def seguidos(self):
         perfil = self.__repositorio.buscar()
+        
         if perfil is None: 
             raise PIException()
         elif perfil is not None and perfil.is_ativo() == False:
