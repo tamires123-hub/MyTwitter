@@ -1,5 +1,5 @@
 
-#Precisamos utilizar o método "atualizar" para atualiza as informações do perfil?
+#Precisamos utilizar o método "atualizar" para atualizar as informações do perfil?
  
 class MyTwitter:
     def __init__(self):
